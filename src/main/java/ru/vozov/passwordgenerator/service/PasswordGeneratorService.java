@@ -4,8 +4,6 @@ import ru.vozov.passwordgenerator.helper.ConsoleHelper;
 
 import java.io.IOException;
 import java.security.SecureRandom;
-import java.util.ArrayList;
-import java.util.Collections;
 
 public class PasswordGeneratorService {
     private static final String LOWERCASE = "abcdefghijklmnopqrstuvwxyz";
