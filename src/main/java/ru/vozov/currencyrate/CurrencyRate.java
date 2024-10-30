@@ -6,7 +6,7 @@ public class CurrencyRate {
     private static final CurrencyRateService currencyRateService = new CurrencyRateService();
 
     public static void main(String[] args) {
-       double sumRub = currencyRateService.gi();
+       double sumRub = currencyRateService.getSumCurrency();
        currencyRateService.convertCurrencies(sumRub);
     }
 }
